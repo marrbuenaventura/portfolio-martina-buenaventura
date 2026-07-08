@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<title>Case Study — Sport & Sweet API REST</title>
-<meta name="description" content="Case study page of Sport & Sweet REST API project" />
+<title>Case Study — Sport & Sweet</title>
+<meta name="description" content="Case study page of Sport & Sweet project" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +14,14 @@ href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;
 rel="stylesheet"
 />
 </head>
+
 <body>
 <header class="header">
 <div class="header__content">
 <div class="header__logo-container">
 <div class="header__logo-img-cont">
 <img
-src="./assets/png/Untitled design.png"
+src="assets/png/Untitled design.png"
 alt="Martina Buenaventura Logo Image"
 class="header__logo-img"
 />
@@ -80,16 +81,16 @@ class="header__main-ham-menu-close d-none"
 
 <section class="project-cs-hero">
 <div class="project-cs-hero__content">
-<h1 class="heading-primary">Sport & Sweet — API REST</h1>
+<h1 class="heading-primary">Sport & Sweet — Kiosco Autoservicio</h1>
 <div class="project-cs-hero__info">
 <p class="text-primary">
-API REST para un e-commerce de indumentaria deportiva, desarrollada como trabajo práctico
-integrador para la materia Programación III (UTN Avellaneda). Construida con Node.js,
-Express y MySQL siguiendo el patrón MVC, con dos frontends conectados al mismo backend.
-<br><br>
-<em>REST API for a sportswear e-commerce, built as a final project for Programación III
-(UTN Avellaneda). Developed with Node.js, Express and MySQL following the MVC pattern,
-with two frontends connected to the same backend.</em>
+API REST y aplicación web de autoservicio para un kiosco de artículos deportivos.
+Backend en Node.js, Express y MySQL con arquitectura MVC; frontend en HTML,
+CSS y JavaScript vanilla. Proyecto integrador grupal de Programación III (UTN Avellaneda).
+<br>
+<em>Self-service kiosk REST API and web app for sporting goods. Node.js/Express/MySQL
+backend (MVC architecture) and a vanilla JS frontend. Group integrator project for
+UTN's Programación III course.</em>
 </p>
 </div>
 <div class="project-cs-hero__cta">
@@ -104,7 +105,7 @@ with two frontends connected to the same backend.</em>
 <div class="project-details__showcase-img-cont">
 <img
 src="assets/png/sport-sweet.png"
-alt="Sport & Sweet API REST Preview"
+alt="Sport & Sweet Preview"
 class="project-details__showcase-img"
 />
 </div>
@@ -112,49 +113,39 @@ class="project-details__showcase-img"
 <div class="project-details__desc">
 <h3 class="project-details__content-title">Project Overview / Descripción del Proyecto</h3>
 <p class="project-details__desc-para">
-Este proyecto consistió en el diseño y desarrollo de una <strong>API REST completa</strong>
-para <strong>Sport & Sweet</strong>, un sistema de e-commerce de indumentaria deportiva,
-trabajado en equipo con una compañera de la Tecnicatura.
+Sport & Sweet es una <strong>aplicación de autoservicio (kiosco)</strong> para
+una tienda de artículos deportivos, desarrollada en equipo como proyecto
+integrador de la materia Programación III. El sistema permite a los clientes
+navegar productos, armar un carrito y generar un ticket de compra, mientras
+que el backend gestiona productos y ventas mediante una API REST propia.
 </p>
 <p class="project-details__desc-para">
-El backend está construido con <strong>Node.js, Express y MySQL</strong>, siguiendo el
-patrón <strong>MVC</strong> (modelos, controladores y rutas separados), con
-<strong>connection pooling</strong> para el manejo eficiente de conexiones a la base
-de datos. La autenticación se maneja con <strong>bcrypt</strong> para el hasheo de
-contraseñas y <strong>express-session</strong> para el manejo de sesiones, y el sistema
-incluye <strong>CORS</strong> configurado para la comunicación entre frontend y backend.
-</p>
-<p class="project-details__desc-para">
-El proyecto cuenta con <strong>dos frontends</strong> conectados a la misma API: un
-cliente en <strong>JavaScript vanilla</strong> con catálogo de productos por categorías
-(zapatillas y ropa) y un carrito de compras lateral persistido en localStorage, y un
-<strong>panel de administración</strong> desarrollado con <strong>EJS</strong> que incluye
-login protegido y gestión de productos con soft delete (papelera).
+El backend está construido con <strong>Node.js, Express y MySQL</strong>,
+organizado siguiendo el patrón <strong>MVC</strong> (controllers, models,
+routes, middlewares), con ES Modules, un pool de conexiones vía
+<strong>MySQL2</strong>, manejo de sesiones con <strong>express-session</strong>
+y variables de entorno con <strong>dotenv</strong>. El frontend está hecho en
+<strong>HTML, CSS y JavaScript vanilla</strong>, con lógica de carrito basada
+en <strong>sessionStorage</strong> y una página de ticket/comprobante de compra.
 </p>
 <p class="project-details__desc-para">
 <em>
-This project involved designing and developing a <strong>complete REST API</strong>
-for <strong>Sport & Sweet</strong>, a sportswear e-commerce system, built as a team
-project with a classmate from the Tecnicatura.
+Sport & Sweet is a <strong>self-service kiosk app</strong> for a sporting
+goods store, built as a group integrator project for the Programación III
+course. It lets customers browse products, build a cart, and generate a
+purchase ticket, while the backend manages products and sales through a
+custom REST API.
 </em>
 </p>
 <p class="project-details__desc-para">
 <em>
-The backend is built with <strong>Node.js, Express and MySQL</strong>, following the
-<strong>MVC</strong> pattern (separated models, controllers and routes), with
-<strong>connection pooling</strong> for efficient database connection handling.
-Authentication is handled with <strong>bcrypt</strong> for password hashing and
-<strong>express-session</strong> for session management, and the system includes
-<strong>CORS</strong> configured for frontend-backend communication.
-</em>
-</p>
-<p class="project-details__desc-para">
-<em>
-The project features <strong>two frontends</strong> connected to the same API: a
-<strong>vanilla JavaScript</strong> client with a category-based product catalog
-(sneakers and clothing) and a side cart persisted in localStorage, and an
-<strong>admin panel</strong> built with <strong>EJS</strong> including protected login
-and product management with soft delete (trash).
+The backend is built with <strong>Node.js, Express, and MySQL</strong>,
+organized using the <strong>MVC</strong> pattern (controllers, models,
+routes, middlewares), with ES Modules, a connection pool via
+<strong>MySQL2</strong>, session handling with <strong>express-session</strong>,
+and environment configuration through <strong>dotenv</strong>. The frontend
+is built with <strong>vanilla HTML, CSS, and JavaScript</strong>, using
+<strong>sessionStorage</strong> for cart logic and a dedicated receipt/ticket page.
 </em>
 </p>
 </div>
@@ -165,19 +156,18 @@ and product management with soft delete (trash).
 <div class="skills__skill">Express</div>
 <div class="skills__skill">MySQL</div>
 <div class="skills__skill">MVC</div>
-<div class="skills__skill">bcrypt</div>
-<div class="skills__skill">express-session</div>
-<div class="skills__skill">CORS</div>
-<div class="skills__skill">EJS</div>
+<div class="skills__skill">REST API</div>
+<div class="skills__skill">HTML</div>
+<div class="skills__skill">CSS</div>
 <div class="skills__skill">JavaScript</div>
 <div class="skills__skill">Git</div>
 </div>
 </div>
 <div class="project-details__links">
-<h3 class="project-details__content-title">See the Code</h3>
+<h3 class="project-details__content-title">See Code</h3>
 <a
 href="https://github.com/marrbuenaventura/tp-autoservicio-Buenaventura-Martina-Valentina-Torres"
-class="btn btn--med btn--theme project-details__links-btn"
+class="btn btn--med btn--theme-inv project-details__links-btn"
 target="_blank"
 >Code Link</a
 >
@@ -215,15 +205,14 @@ target="_blank"
 <div class="main-footer__row main-footer__row-2">
 <h4 class="heading heading-sm text-lt">Martina Buenaventura</h4>
 <p class="main-footer__short-desc">
-Desarrolladora full-stack apasionada por construir sistemas backend robustos y experiencias
-digitales modernas y accesibles.
+Desarrolladora full-stack junior apasionada por crear experiencias digitales modernas y accesibles.
 </p>
 </div>
 <div class="main-footer__lower">
 &copy; Copyright 2021. Made by
 <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
 >Ram Maheshwari</a>
-&copy; 2026 Martina Buenaventura — Portafolio Personal
+&copy; 2025 Martina Buenaventura — Portafolio Personal
 </div>
 </div>
 </footer>
